@@ -9,7 +9,8 @@ pkgbase = python-expandvars
 	makedepends = python-build
 	makedepends = python-hatchling
 	makedepends = python-installer
-	depends = python
+	depends = python>=3.12
+	depends = python<3.13
 	source = https://github.com/sayanarijit/expandvars/archive/v0.12.0/expandvars-0.12.0.tar.gz
 	sha256sums = dea375871e614bf2d2e5568f96d1101ab42985559cf48c0428d3591b5b59024c
 
